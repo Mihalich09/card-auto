@@ -1,0 +1,20 @@
+{
+  "name": "auto-empire-card-server",
+  "version": "1.0.0",
+  "description": "API-сервер карточек игрока AUTO EMPIRE (PNG 1000x500) для Telegram-бота",
+  "main": "server.js",
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "sample": "node scripts/make-sample.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.53",
+    "express": "^4.19.2"
+  }
+}
